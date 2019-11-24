@@ -33,3 +33,10 @@ Bootstrap, Codepen, Tachyons.io, Visual Studio Code, CSS, HTML, Unsplashed (for 
 
 ### Screenshots and gif:
 
+![.gif of final product](https://github.com/demonaco/Portfolio-Update/blob/master/assets/images/myportfolio.gif)
+
+![screenshot of code used for carousel](https://github.com/demonaco/Portfolio-Update/blob/master/assets/images/Screen%20Shot%202019-11-23%20at%208.11.46%20PM.png)
+
+![screenshot of homepage](https://github.com/demonaco/Portfolio-Update/blob/master/assets/images/Screen%20Shot%202019-11-23%20at%208.11.08%20PM.png)
+
+![screenshot of Portfolio/carousel in action](https://github.com/demonaco/Portfolio-Update/blob/master/assets/images/Screen%20Shot%202019-11-23%20at%208.10.42%20PM.png)
