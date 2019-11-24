@@ -11,7 +11,7 @@ Bootstrap, Codepen, Tachyons.io, Visual Studio Code, CSS, HTML, Unsplashed (for 
 ### Throughout component searching, I came across so many great building blocks that really sparked brainstorming for me and got the creative juices flowing. I wanted to take the reader on a journey with photos, as traveling is a big passion of mine and a part of my life, and I wanted to use copy that was personable. It's like stating "yes, I enjoy my profession, but there's still more than just that." I want the reader to leave with a take-away that feels like they almost know me!
 
 ### Steps:
-1. I started looking for inspriation, as I didn't know completely which direction I wanted to head down for design. My first look was at Tachyons, as resource shared with us that I hadn't yet used. 
+1. I started looking for inspiration, as I didn't know completely which direction I wanted to head down for design. My first look was at Tachyons, a resource shared with us that I hadn't yet used. 
 
 2. Upon looking at Tachyons component resources I loved their nav bar which I used and it showcased throughout the site. I also used their social media footer bar which displays clickable social media icons of mine.
 
