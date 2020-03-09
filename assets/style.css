@@ -188,7 +188,7 @@
         /* text-align: center; */
  }
 
-    .mb4-ns {
+    /* .mb4-ns {
         margin-bottom: 2rem;
     }
 
@@ -198,7 +198,7 @@
 
     .f5-ns {
         font-size: 1rem;
-    }
+    } */
 } 
 
 
@@ -570,15 +570,7 @@ section h1 {
 }
 
 @media screen and (max-width: 960px){
- section{
-     
- }   
-blockquote{
-    
-}
-/* .demo{
-    visibility: hidden;
-} */
+
 form{
     margin-left: 0;
 }
@@ -602,9 +594,12 @@ body{
     margin-left: 0;
 }
 
-p{
-text-align: center;
-font: bold;
+h1{
+    font-size: ;
+}
+
+.carousel{
+    margin-left:0px;
 }
 
 }
