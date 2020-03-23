@@ -9,6 +9,20 @@
     border-right-width: 1px;
 }
 
+.stack {
+    /* text-align: center; */
+    /* box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+    margin-left: 2%;
+    width: 84%; */
+}
+
+.backEnd {
+    /* position: absolute;
+    float: right; */
+}
+
 .b--blue {
     border-color: #408bc9;
 }
@@ -69,7 +83,7 @@
     max-width: 30em;
 }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+/* @media screen and (min-width: 30em) and (max-width: 60em) {
     .f4-m {
         font-size: 1.25rem;
     }
@@ -78,7 +92,7 @@
 @media screen and (min-width: 60em) {
     .f3-l {
         font-size: 1.5rem;
-    }
+    } */
 
 
 
@@ -605,3 +619,13 @@ h1{
 }
 
 
+/* About Me Section */
+
+* { margin: 0; padding: 0; }
+
+body { padding: 50px; }
+.block { background: whiteSmoke; padding: 20px; border-radius: 3px; }
+
+.spacing-quarter:not(:last-child) { margin-bottom: 2px; }
+.spacing-half:not(:last-child) { margin-bottom: 5px; }
+.spacing:not(:last-child) { margin-bottom: 10px; }
