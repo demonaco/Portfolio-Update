@@ -592,12 +592,25 @@ h1{
     font-size: 50%;
 }
 
+section h1 {
+    font : normal 400 19px 'Josefin Sans', sans-serif;
+
+}
+
 }
 
 @media screen and (max-width: 670px){
 /* form{
     margin-left: 2em;
 }  */
+section h1 {
+    font : normal 400 12px 'Josefin Sans', sans-serif;
+
+}
+
+blockquote { 
+    font: 16px;
+}
 
 img {
 margin-left: 20px;
