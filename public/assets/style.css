@@ -614,6 +614,8 @@ h1{
 
 .carousel{
     margin-left:0px;
+    padding: 75px;
+
 }
 
 }
@@ -624,7 +626,7 @@ h1{
 * { margin: 0; padding: 0; }
 
 body { padding: 50px; }
-.block { background: whiteSmoke; padding: 20px; border-radius: 3px; }
+.block { background: whitesmoke; padding: 20px; border-radius: 3px; border: black solid 2px;}
 
 .spacing-quarter:not(:last-child) { margin-bottom: 2px; }
 .spacing-half:not(:last-child) { margin-bottom: 5px; }
