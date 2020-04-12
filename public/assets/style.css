@@ -5,6 +5,11 @@
      margin: 0 auto;
 
  }
+
+ a {
+    color: white;
+ }
+
  .bl {
     border-right-style: solid;
     border-right-width: 1px;
