@@ -19,7 +19,7 @@ app.get("/about", function(req, res) {
 });
 
 app.get("/contactform.php", function(req, res) {
-    res.sendFile(path.join(__dirname, "/contactform.php"))
+    res.sendFile(path.join(__dirname, "../public/contactform.php"))
 });
 
 }
