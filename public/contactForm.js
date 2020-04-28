@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    alert("Hi")
     $("#submit").on("click", function(e) {
         e.preventDefault();
         var name = $("#name").val();
