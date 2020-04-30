@@ -1,13 +1,13 @@
 $(document).ready(function() {
-    alert("Hi")
+    // alert("Hi")
     $("#submit").on("click", function(e) {
         e.preventDefault();
         var name = $("#name").val();
         var email = $("#email").val();
-        var input = $("#inputForm").val();
-        console.log(name, email, input);
+        var message = $("#message").val();
+        console.log(name, email, message);
 
-        if (name === "" || email === "" || input === "") {
+        if (name === "" || email === "" || message === "") {
             console.log("no email, name, or message");
             return false;
         } else {
@@ -15,12 +15,21 @@ $(document).ready(function() {
             var newMessage = {
                 name: name,
                 email: email,
-                input: input
+                message: message
 
             }
-            $.post("/", newMessage).then(function(){
-                window.location.href = "mailto:mdemonaco@gmail.com?" + "subject=" + name + "&body=" + input;
+            $.ajax({
+                type: "POST",
+                url: "email.php",
+                data: newMessage,
+                success: function(){
+                    alert("Submitted successfully")
+                }
             });
+            // $("$name").reset();
+            // $("$email").reset();
+            // $("$message").reset();
+
         };
     });
 });

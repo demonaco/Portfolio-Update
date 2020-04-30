@@ -1,10 +1,20 @@
- form{
-     width:350px;
+ form {
+     width: 380px;
      height: 425px;
-     /* margin-left: 20em; */
      margin: 0 auto;
+     font: 'Josefin Sans', sans-serif;
 
  }
+
+ #email{
+    width: 380px;
+ }
+
+#message {
+    width: 380px;
+    height: 250px;
+}
+
 
  a {
     color: white;
@@ -15,19 +25,6 @@
     border-right-width: 1px;
 }
 
-.stack {
-    /* text-align: center; */
-    /* box-sizing: border-box;
-    float: left;
-    overflow: hidden;
-    margin-left: 2%;
-    width: 84%; */
-}
-
-.backEnd {
-    /* position: absolute;
-    float: right; */
-}
 
 .b--blue {
     border-color: #408bc9;
@@ -391,7 +388,6 @@
 }
 
 footer{
-    /* position: fixed; */
     bottom: 0;
     margin: auto 0;
     text-align: center;

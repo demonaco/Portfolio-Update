@@ -18,8 +18,8 @@ app.get("/about", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/about.html"))
 });
 
-app.get("/contactform.php", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/contactform.php"))
+app.get("/email.php", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/email.php"))
 });
 
 }
